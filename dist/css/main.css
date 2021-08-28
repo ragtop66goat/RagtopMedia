@@ -124,6 +124,7 @@ img {
     #main-nav a.current {
       border-color: #65afdd; }
 
+/* homepage header styoing */
 #header-home {
   background: rgba(0, 0, 0, 0.7);
   height: 100vh;
@@ -151,6 +152,27 @@ img {
   #home-a .specials .fas {
     color: #65afdd;
     padding-bottom: 4rem; }
+
+/* secondary page header styling */
+#header-secondary {
+  background: rgba(0, 0, 0, 0.7);
+  height: 40vh;
+  color: #fff; }
+  #header-secondary .header-content {
+    text-align: center;
+    padding-top: 10%; }
+    #header-secondary .header-content h1 {
+      font-size: 4rem;
+      line-height: 1.2; }
+
+#header-secondary:before {
+  content: "";
+  position: absolute;
+  height: 40vh;
+  width: 100%;
+  background: url("../img/goat.jpg") no-repeat center right/cover;
+  z-index: -1; }
+
 
 #home-b .stats {
   display: grid;
@@ -207,6 +229,7 @@ img {
         background: #333;
         color: #fff; }
 
+/* footer stylings */
 #main-footer {
   background: #333;
   color: #fff;
