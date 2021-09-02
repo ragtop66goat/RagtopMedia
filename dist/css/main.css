@@ -240,7 +240,7 @@ img {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  margin: 5vh 10vw 5vh 10vw;
+  margin: 0 10vw 5vh 10vw;
 }
 
 .project-card {
@@ -249,6 +249,11 @@ img {
   justify-content: center;
   align-items: center;
   max-width: 35vw;
+  margin: 5vh 0;
+}
+
+.project-card a {
+  color: #65afdd;
 }
 
 .project-card p {
@@ -259,22 +264,34 @@ img {
 #project1 {
   width: 30vw;
   height: 35vh;
-  background: url("../img/Shyguy.PNG") no-repeat center center/contain; }
+  background: url("../img/Shyguy.PNG") no-repeat center center/contain;
+  box-shadow:0 3px 10px rgba(0, 0, 0, 0.7);
+  margin-bottom: 2vh; 
+}
 
 #project2 {
   width: 30vw;
   height: 35vh;
-  background: url("../img/Unclebigbucks.PNG") no-repeat center center/contain; }
+  background: url("../img/Unclebigbucks.PNG") no-repeat center center/contain;
+  box-shadow:0 3px 10px rgba(0, 0, 0, 0.7);
+  margin-bottom: 2vh;
+ }
 
 #project3 {
   width: 30vw;
   height: 35vh;
-  background: url("../img/AutosBySG.PNG") no-repeat center center/contain; }
+  background: url("../img/AutosBySG.PNG") no-repeat center center/contain; 
+  box-shadow:0 3px 10px rgba(0, 0, 0, 0.7);
+  margin-bottom: 2vh;
+}
 
 #project4 {
   width: 30vw;
   height: 35vh;
-  background: url("../img/RTM1.png") no-repeat center center/contain; }
+  background: url("../img/RTM1.png") no-repeat center center/contain; 
+  box-shadow:0 3px 10px rgba(0, 0, 0, 0.7);
+  margin-bottom: 2vh;
+}
 
 
 /* footer stylings */
