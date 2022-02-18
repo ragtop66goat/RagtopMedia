@@ -126,8 +126,8 @@ img {
 }
 
 #logo1 {
-  width: 80px;
-  height: 80px;
+  width: 100px;
+  height: 100px;
   background: url("../img/RTM1.png") no-repeat center center/contain;
 }
 
@@ -164,8 +164,10 @@ img {
 }
 
 /* homepage header styling */
+
+/*tinted overlay styling*/
 #header-home {
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, 0.6);
   height: 100vh;
   color: #fff;
 }
@@ -179,12 +181,13 @@ img {
   margin-bottom: 4rem;
 }
 
+/*main background image*/
 #header-home:before {
   content: "";
   position: absolute;
   height: 100%;
   width: 100%;
-  background: url("../img/goat.jpg") no-repeat center right/cover;
+  background: url("../img/laptop.jpg") no-repeat center right/cover;
   z-index: -1;
 }
 
@@ -219,7 +222,7 @@ img {
   position: absolute;
   height: 40vh;
   width: 100%;
-  background: url("../img/goat.jpg") no-repeat center center/cover;
+  background: url("../img/keyboard.jpg") no-repeat center center/cover;
   z-index: -1;
 }
 
