@@ -323,7 +323,7 @@ img {
 #project1 {
   width: 30vw;
   height: 35vh;
-  background: url("../img/Shyguy.PNG") no-repeat center center/contain;
+  background: url("../img/ShyguyRS.jpg") no-repeat center center/contain;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.7);
   margin-bottom: 2vh;
 }
@@ -331,7 +331,7 @@ img {
 #project2 {
   width: 30vw;
   height: 35vh;
-  background: url("../img/Unclebigbucks.PNG") no-repeat center center/contain;
+  background: url("../img/UnclebigbucksRS.jpg") no-repeat center center/contain;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.7);
   margin-bottom: 2vh;
 }
@@ -339,7 +339,7 @@ img {
 #project3 {
   width: 30vw;
   height: 35vh;
-  background: url("../img/AutosBySG.PNG") no-repeat center center/contain;
+  background: url("../img/AutosBySGRS.jpg") no-repeat center center/contain;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.7);
   margin-bottom: 2vh;
 }
