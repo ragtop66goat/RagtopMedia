@@ -1,0 +1,9 @@
+.header {
+  background: url("../../img/keyboard.jpg") no-repeat center center/cover;
+  height: 100%;
+  width: 100vw;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
