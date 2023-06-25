@@ -1,0 +1,30 @@
+.footer {
+  background: #333;
+  color: #fff;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 5rem;
+}
+
+.fab {
+  color: #fff;
+  margin: 1rem;
+  border: 2px #fff solid;
+  border-radius: 10%;
+  height: 2rem;
+  width: 2rem;
+}
+
+.fab:hover {
+  background: #65afdd;
+  cursor: pointer;
+}
