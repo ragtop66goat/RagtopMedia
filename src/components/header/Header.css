@@ -1,9 +1,13 @@
 .header {
   background: url("../../img/keyboard.jpg") no-repeat center center/cover;
   height: 100%;
-  width: 100vw;
+  width: 100%;
+  max-height: 25rem;
   color: #fff;
-  display: flex;
-  flex-direction: column;
   text-align: center;
+}
+
+.header-content {
+  margin-top: 5rem;
+  font-size: 5rem;
 }

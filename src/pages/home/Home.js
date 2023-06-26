@@ -29,7 +29,7 @@ export function Home() {
         <div class="process">
           <div>
             <FaFileAlt class="process-icon" />
-            <h3>Discuss the project</h3>
+            <h3>Discussion</h3>
             <p className="detail">
               Let's talk about both immediate and future needs, establishing the
               ideal roadmap for your site.
@@ -37,7 +37,7 @@ export function Home() {
           </div>
           <div>
             <FaObjectUngroup class="process-icon" />
-            <h3>Brainstorming Concepts</h3>
+            <h3>Brainstorming</h3>
             <p className="detail">
               Together we go over names, colors, and any logo design needs that
               your company may have, along with any design tricks to make your
@@ -46,7 +46,7 @@ export function Home() {
           </div>
           <div>
             <FaDesktop class="process-icon" />
-            <h3>End User experience</h3>
+            <h3>User Experience</h3>
             <p className="detail">
               Now we can fine tune the site layout and critical elemnts for each
               page, incorporating any third party communications and

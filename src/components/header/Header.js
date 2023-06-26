@@ -5,7 +5,7 @@ export function Header({ content }) {
   return (
     <div className="header">
       <Navbar />
-      <h1>{content}</h1>
+      <h1 className="header-content">{content}</h1>
     </div>
   );
 }

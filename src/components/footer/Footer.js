@@ -12,10 +12,34 @@ export function Footer() {
         <img src={logo} alt="Logo" className="logo" />
         <h4>Powered by Ragtop Media</h4>
         <div className="social">
-          <FaFacebookSquare className="fab" />
-          <FaTwitterSquare className="fab" />
-          <FaInstagramSquare className="fab" />
-          <FaLinkedin className="fab" />
+          <a
+            href="https://www.facebook.com/Ragtop-Media-112531074552903"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <FaFacebookSquare className="fab" />
+          </a>
+          <a
+            href="https://www.twitter.com/_R_T_Media"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <FaTwitterSquare className="fab" />
+          </a>
+          <a
+            href="https://www.instagram.com/ragtopmedia"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <FaInstagramSquare className="fab" />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/jason-gionfriddo-1a660048"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <FaLinkedin className="fab" />
+          </a>
         </div>
       </div>
     </div>

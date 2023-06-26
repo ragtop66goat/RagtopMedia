@@ -17,3 +17,13 @@
   background-color: #151515;
   border: solid 3px #65afdd;
 }
+
+.button:hover {
+  width: 10rem;
+  margin: 20% 45%;
+  padding: 1rem;
+  font-size: 1.3rem;
+  color: #ffffff;
+  background-color: #65afdd;
+  border: solid 3px #65afdd;
+}
