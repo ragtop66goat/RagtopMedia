@@ -7,19 +7,20 @@ import { Link } from "react-router-dom";
 export function Hero() {
   const [word, setWord] = useState("");
   const target = "You have found your new Developer";
-  let timer;
 
   useEffect(() => {
+    let timer;
+    const generate = () => {
+      let i = -1;
+      timer = setInterval(() => {
+        i++;
+        if (i === target.length - 1) clearInterval(timer);
+        setWord((prev) => prev + target[i]);
+      }, 80);
+    };
+
     generate();
   }, []);
-  const generate = () => {
-    let i = -1;
-    timer = setInterval(() => {
-      i++;
-      if (i === target.length - 1) clearInterval(timer);
-      setWord((prev) => prev + target[i]);
-    }, 80);
-  };
 
   return (
     <div className="hero">
