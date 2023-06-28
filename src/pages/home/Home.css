@@ -3,6 +3,10 @@
   margin: 4rem 2rem;
 }
 
+.process h3 {
+  margin: auto;
+}
+
 .bottom-line {
   height: 2px;
   width: 18rem;
@@ -12,7 +16,7 @@
 
 .lead {
   font-size: 1.3rem;
-  margin-bottom: 2rem;
+  margin: auto;
 }
 
 .section-title {
@@ -31,6 +35,7 @@
   display: flex;
   justify-content: space-evenly;
   align-items: flex-start;
+  flex-wrap: wrap;
   margin: 8rem 5rem;
 }
 
@@ -38,8 +43,8 @@
   border-radius: 10%;
   background: #333;
   color: #fff;
-  width: 10rem;
-  height: 10rem;
+  width: 40%;
+  height: 40%;
   padding: 1rem;
   text-align: center;
   position: relative;
@@ -47,10 +52,10 @@
 }
 .process-icon:hover {
   background: #65afdd;
-  width: 12rem;
-  height: 12rem;
+  width: 42%;
+  height: 42%;
 }
 
 .detail {
-  margin: 1rem 2rem;
+  margin: 1rem;
 }

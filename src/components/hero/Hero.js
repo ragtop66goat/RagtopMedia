@@ -24,8 +24,8 @@ export function Hero() {
   return (
     <div className="hero">
       <Navbar />
-      <h1 className="m-5">{word}</h1>
-      <Link to="/work">
+      <h1 className="hero-typed">{word}</h1>
+      <Link className="btn-link" to="/work">
         <Button className="button">Examples</Button>
       </Link>
     </div>

@@ -1,5 +1,4 @@
 .example-content {
-  background-color: rgba(3, 3, 3, 0.2);
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -11,13 +10,23 @@
   flex-direction: column;
   align-items: center;
   margin: 4rem;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 3px 3px 3px rgba(3, 3, 3, 0.2);
+}
+
+.link {
+  text-decoration: none;
+  font-size: 1.5rem;
+  margin-top: auto;
 }
 
 img {
   max-width: 100%;
+  border-radius: 5px;
+  margin: 1.5rem;
 }
 
 p {
-  margin: 2rem;
-  max-width: 50%;
+  max-width: 20rem;
 }
