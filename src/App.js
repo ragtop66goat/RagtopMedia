@@ -6,6 +6,7 @@ import { Work } from "./pages/work/Work";
 
 function App() {
   return (
+
     <Router>
       <div className="main-app">
         <Routes>

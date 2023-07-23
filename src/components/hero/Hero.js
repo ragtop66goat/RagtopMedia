@@ -1,5 +1,5 @@
 import { Button } from "react-bootstrap";
-import { Navbar } from "../navbar/Navbar";
+import { NavbarComponent } from "../navbar/NavbarComponent";
 import { useEffect, useState } from "react";
 import "./Hero.css";
 import { Link } from "react-router-dom";
@@ -24,11 +24,8 @@ export function Hero() {
 
   return (
     <div className="hero">
-      <Navbar />
+      <NavbarComponent />
       <h1 className="hero-typed">{word}</h1>
-      <Link className="btn-link" to="/work">
-        <Button className="button">Examples</Button>
-      </Link>
     </div>
   );
 }

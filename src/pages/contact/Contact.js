@@ -45,8 +45,8 @@ export function Contact() {
           <FaLinkedin className="contact-fab" />
         </a>
       </div>
-      <h2 class="section-title">Thanks for Visiting</h2>
-      <div class="bottom-line"></div>
+      <h2 className="section-title">Thanks for Visiting</h2>
+      <div className="bottom-line"></div>
       <h3>I look forward to beginning our collaboration!</h3>
       <Footer />
     </div>
