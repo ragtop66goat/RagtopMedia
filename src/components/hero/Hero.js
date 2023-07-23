@@ -1,8 +1,6 @@
-import { Button } from "react-bootstrap";
 import { NavbarComponent } from "../navbar/NavbarComponent";
 import { useEffect, useState } from "react";
 import "./Hero.css";
-import { Link } from "react-router-dom";
 
 export function Hero() {
   const [word, setWord] = useState("");
