@@ -7,6 +7,7 @@ import {
   FaTwitterSquare,
 } from "react-icons/fa";
 import "./Contact.css";
+import EmailForm from "../../components/email form/EmailForm";
 
 export function Contact() {
   return (
@@ -15,6 +16,7 @@ export function Contact() {
       <h3>
         Message me on any of the platforms below for pricing and availability
       </h3>
+      <EmailForm/>
       <div className="contact-social">
         <a
           href="https://www.facebook.com/Ragtop-Media-112531074552903"
@@ -45,8 +47,8 @@ export function Contact() {
           <FaLinkedin className="contact-fab" />
         </a>
       </div>
-      <h2 class="section-title">Thanks for Visiting</h2>
-      <div class="bottom-line"></div>
+      <h2 className="section-title">Thanks for Visiting</h2>
+      <div className="bottom-line"></div>
       <h3>I look forward to beginning our collaboration!</h3>
       <Footer />
     </div>
