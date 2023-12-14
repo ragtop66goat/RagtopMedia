@@ -25,8 +25,8 @@ export function Hero() {
     <div className="hero">
       <Navbar />
       <h1 className="hero-typed">{word}</h1>
-      <Link className="btn-link" to="/work">
-        <Button className="button">Examples</Button>
+      <Link to="/work">
+        <Button className="hero-button">Examples</Button>
       </Link>
     </div>
   );

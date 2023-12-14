@@ -12,10 +12,7 @@ import EmailForm from "../../components/email form/EmailForm";
 export function Contact() {
   return (
     <div className="text-center">
-      <Header content="Contact" />
-      <h3>
-        Message me on any of the platforms below for pricing and availability
-      </h3>
+      <Header content="Contact"/>
       <EmailForm/>
       <div className="contact-social">
         <a

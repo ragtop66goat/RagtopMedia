@@ -13,20 +13,20 @@ export function Home() {
       <div className="home-content">
         <h2 className="section-title">Concentration</h2>
         <div className="bottom-line"></div>
-        <p class="lead">
+        <p className="lead">
           Building a custom solution to fit your desired web-presence <br />
           using industry standard technologies
         </p>
       </div>
-      <div class="process-section">
-        <h2 class="section-title">The Process</h2>
-        <div class="bottom-line"></div>
-        <p class="lead">
+      <div className="process-section">
+        <h2 className="section-title">The Process</h2>
+        <div className="bottom-line"></div>
+        <p className="lead">
           All projects are based off collaboration and feedback
           <br />
           to ensure the delivered product meets client expectations
         </p>
-        <div class="process">
+        <div className="process">
           <div>
             <FaFileAlt class="process-icon" />
             <h3>Discussion</h3>

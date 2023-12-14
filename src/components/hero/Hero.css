@@ -7,12 +7,12 @@
   justify-content: space-between;
   text-align: center;
   color: #ffffff;
-  padding-bottom: 15%;
+  padding-bottom: 15rem;
 }
 
 .hero:before {
   content: "";
-  background: rgba(8, 8, 8, 0.3);
+  background: rgba(8, 8, 8, 0.4);
   position: absolute;
   top: 0;
   left: 0;
@@ -20,31 +20,21 @@
   height: 100%;
 }
 
-.btn-link {
-  z-index: 1;
-}
-
-.button {
+.hero-button {
   width: 10rem;
-  padding: 1rem;
-  font-size: 1.3rem;
+  position: sticky;
   color: #65afdd;
   background-color: #151515;
-  border: solid 3px #65afdd;
-  margin-top: 7%;
-  z-index: 1;
+  border: solid 2px #65afdd;
 }
 
 .hero-typed {
   z-index: 1;
 }
 
-.button:hover {
+.hero-button:hover {
   width: 10rem;
-  padding: 1rem;
-  font-size: 1.3rem;
   color: #ffffff;
   background-color: #65afdd;
-  border: solid 3px #65afdd;
-  z-index: 1;
+  border: solid 2px #ffffff;
 }
