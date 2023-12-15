@@ -18,9 +18,9 @@ export default function EmailForm() {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    const serviceId = "service_29k71ep";
-    const templateId = "template_j4gq9gf";
-    const publicKey = "mVGBDkYcbf4b1jUbw";
+    const serviceId = process.env.REACT_APP_SERVICE_ID;
+    const templateId = process.env.REACT_APP_TEMPLATE_ID;
+    const publicKey = process.env.REACT_APP_PUBLIC_KEY;
 
     const templateParams = {
       from_name: name,
@@ -52,7 +52,7 @@ export default function EmailForm() {
           placeholder="Johnny Newcomer"
           name="name"
           value={name}
-          onChange={(e) => handleChange(e.target.value)}
+          onChange={handleChange}
         />
         <label htmlFor="email">Email</label>
         <input
@@ -60,7 +60,7 @@ export default function EmailForm() {
           placeholder="example@new2u.net"
           name="email"
           value={email}
-          onChange={(e) => handleChange(e.target.value)}
+          onChange={handleChange}
         />
         <textarea
           cols="30"
@@ -68,7 +68,7 @@ export default function EmailForm() {
           placeholder="Type your message here"
           name="message"
           value={message}
-          onChange={(e) => handleChange(e.target.value)}
+          onChange={handleChange}
         />
         <button className="email-form-btn" type="submit">Send Email</button>
       </form>
