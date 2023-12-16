@@ -34,8 +34,9 @@ jobs:
           TEMPLATE_ID: ${{ secrets.TEMPLATE_ID}}
           PUBLIC_KEY: ${{ secrets.PUBLIC_KEY}}
         with:
-          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID}}
-          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN}}
+          netlify-site-id: ${{ secrets.NETLIFY_SITE_ID}}
+          netlify-auth-token: ${{ secrets.NETLIFY_AUTH_TOKEN}}
+          github-token: ${{ secrets.GITHUB_TOKEN}}
           build-dir: './build'
           comment-on-commit: true
 
