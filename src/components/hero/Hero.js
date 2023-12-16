@@ -11,7 +11,9 @@ export function Hero() {
 
   useEffect(() => {
     generate();
+    // eslint-disable-next-line
   }, []);
+
   const generate = () => {
     let i = -1;
     timer = setInterval(() => {
