@@ -6,7 +6,7 @@ import { FaDesktop } from "react-icons/fa";
 import { FaThumbsUp } from "react-icons/fa";
 import "./Home.css";
 
-export function Home() {
+export default function Home() {
   return (
     <div>
       <Hero />
@@ -28,7 +28,7 @@ export function Home() {
         </p>
         <div className="process">
           <div>
-            <FaFileAlt class="process-icon" />
+            <FaFileAlt className="process-icon" />
             <h3>Discussion</h3>
             <p className="detail">
               Let's talk about both immediate and future needs, establishing the
@@ -36,7 +36,7 @@ export function Home() {
             </p>
           </div>
           <div>
-            <FaObjectUngroup class="process-icon" />
+            <FaObjectUngroup className="process-icon" />
             <h3>Brainstorming</h3>
             <p className="detail">
               Together we go over names, colors, and any logo design needs that
@@ -45,7 +45,7 @@ export function Home() {
             </p>
           </div>
           <div>
-            <FaDesktop class="process-icon" />
+            <FaDesktop className="process-icon" />
             <h3>User Experience</h3>
             <p className="detail">
               Now we can fine tune the site layout and critical elemnts for each
@@ -54,7 +54,7 @@ export function Home() {
             </p>
           </div>
           <div>
-            <FaThumbsUp class="process-icon" />
+            <FaThumbsUp className="process-icon" />
             <h3>Interaction</h3>
             <p className="detail">
               This is where we go over the site together until it's fully ready

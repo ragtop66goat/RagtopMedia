@@ -6,7 +6,7 @@ import SGAuto from "../../img/AutosBySGRS.jpg";
 import RTM from "../../img/RTM2.png";
 import "./Work.css";
 
-export function Work() {
+export default function Work() {
   return (
     <div className="work">
       <Header content="Examples" />

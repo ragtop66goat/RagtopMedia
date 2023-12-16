@@ -9,7 +9,7 @@ import {
 import "./Contact.css";
 import EmailForm from "../../components/email form/EmailForm";
 
-export function Contact() {
+export default function Contact() {
   return (
     <div className="text-center">
       <Header content="Contact"/>

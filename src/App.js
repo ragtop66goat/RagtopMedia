@@ -1,8 +1,8 @@
 import "./App.css";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import { Home } from "./pages/home/Home";
-import { Contact } from "./pages/contact/Contact";
-import { Work } from "./pages/work/Work";
+import Home from "./pages/home/Home";
+import Contact from "./pages/contact/Contact";
+import Work from "./pages/work/Work";
 
 function App() {
   return (
