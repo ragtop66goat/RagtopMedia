@@ -86,9 +86,7 @@ export default function Work() {
         <div className="example-card">
           <img src={RTM} alt="RTM" />
           <p>
-            My portfolio page was built with HTML, CSS, JavaScript, and SASS. I
-            have many more tips and tricks that we can incorporate into your
-            site.
+            This site was built with React, Bootstrap, JavaScript and CSS.
           </p>
           <a
             className="link"

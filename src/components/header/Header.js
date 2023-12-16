@@ -1,10 +1,10 @@
 import "./Header.css";
-import { Navbar } from "../navbar/Navbar";
+import { NavbarComponent } from "../navbar/NavbarComponent";
 
 export function Header({ content }) {
   return (
     <div className="header">
-      <Navbar />
+      <NavbarComponent />
       <h1 className="header-content">{content}</h1>
     </div>
   );

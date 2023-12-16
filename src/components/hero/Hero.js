@@ -1,20 +1,19 @@
-import { Button } from "react-bootstrap";
-import { Navbar } from "../navbar/Navbar";
+import { NavbarComponent } from "../navbar/NavbarComponent";
 import { useEffect, useState } from "react";
 import "./Hero.css";
-import { Link } from "react-router-dom";
 
 export function Hero() {
   const [word, setWord] = useState("");
   const target = "You have found your new Developer";
-  let timer;
 
   useEffect(() => {
+
     generate();
     // eslint-disable-next-line
   }, []);
 
   const generate = () => {
+    let timer;
     let i = -1;
     timer = setInterval(() => {
       i++;
@@ -25,7 +24,7 @@ export function Hero() {
 
   return (
     <div className="hero">
-      <Navbar />
+      <NavbarComponent />
       <h1 className="hero-typed">{word}</h1>
       <Link to="/work">
         <Button className="hero-button">Examples</Button>
