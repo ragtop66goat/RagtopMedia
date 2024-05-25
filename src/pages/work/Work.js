@@ -20,7 +20,7 @@ export default function Work() {
           </p>
           <a
             className="link"
-            href="https://fabulous-pony-af103f.netlify.app/"
+            href="https://uncle-big-bucks.netlify.app/"
             target="_blank"
             rel="noopener noreferrer"
           >
