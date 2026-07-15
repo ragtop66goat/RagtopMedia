@@ -1,62 +1,85 @@
-.email-form{
-    padding: 1rem;
+.email-form {
+    padding: 1.5rem;
     display: flex;
     flex-direction: column;
-    border-radius: 20px;
+    border-radius: 6px;
     box-sizing: border-box;
-    background: #e5e5e8;
-    box-shadow: 14px 14px 20px #cbced1, -14px -14px 20px white;
+    background: var(--surface);
+    border: 1px solid var(--border);
     text-align: start;
+    width: 100%;
+    max-width: 26rem;
 }
 
-input::placeholder {
-    color: gray;
+input::placeholder,
+textarea::placeholder {
+    color: var(--muted);
 }
 
 label {
     margin-left: 1rem;
-    color: #65afdd;
-    font-weight: bold;
-    font-size: 1.25rem;
+    color: var(--accent);
+    font-family: var(--font-mono);
+    font-weight: 600;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
 }
 
 .mt-10 {
     margin-top: 7rem;
     margin-bottom: 5rem;
+    color: var(--ink);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.mt-10 h4 {
+    color: var(--muted);
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.email-intro {
+    max-width: 22rem;
 }
 
 input {
-    background: #f9fafc;
+    background: var(--bg);
+    color: var(--ink);
     padding: 10px;
     margin: 1rem;
     padding-left: 20px;
     height: 50px;
     font-size: 14px;
-    border-radius: 50px;
-    box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
+    border-radius: 4px;
+    border: 1px solid var(--border);
 }
 
 textarea {
-    background: #f9fafc;
+    background: var(--bg);
+    color: var(--ink);
     padding: 10px;
     padding-left: 20px;
     font-size: 14px;
-    border-radius: 5px;
-    box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
+    border-radius: 4px;
+    border: 1px solid var(--border);
 }
 
 .email-form-btn {
-    color: white;
+    color: var(--accent-ink);
     margin-top: 20px;
-    background: #65afdd;
+    background: var(--accent);
     height: 40px;
-    border-radius: 20px;
+    border: none;
+    border-radius: 4px;
     cursor: pointer;
-    font-weight: 900;
-    box-shadow: 6px 6px 6px #cbced1, -6px -6px 6px white;
-    transition: 0.5s;
+    font-weight: 700;
+    transition: background-color 0.3s;
 }
 
 .email-form-btn:hover {
-    box-shadow: none;
+    background: var(--accent-2);
 }

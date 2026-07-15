@@ -1,13 +1,19 @@
 .header {
-  background: url("../../img/keyboard.jpg") no-repeat center center/cover;
+  background: var(--bg);
+  border-bottom: 1px solid var(--border);
   height: 100%;
   width: 100%;
-  max-height: 25rem;
-  color: #fff;
+  max-height: 20rem;
+  color: var(--ink);
   text-align: center;
+  padding-bottom: 3rem;
 }
 
 .header-content {
-  margin: auto;
-  font-size: 5rem;
+  width: 100%;
+  max-width: var(--content-max-width);
+  margin: 0 auto;
+  padding: 0 var(--page-gutter);
+  box-sizing: border-box;
+  font-size: 3.5rem;
 }

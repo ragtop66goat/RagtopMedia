@@ -40,12 +40,12 @@ export default function EmailForm() {
   };
 
   return (
-    <div className="container w-50 mt-10 d-flex">
-      <div>
+    <div className="container mt-10">
+      <div className="email-intro">
         <h3>Reach out via email</h3>
         <h4>Or on any of the platforms<br/> linked below</h4>
       </div>
-      <form onSubmit={handleSubmit} className="email-form flex-grow-1">
+      <form onSubmit={handleSubmit} className="email-form">
         <label htmlFor="name">Name</label>
         <input
           type="text"
