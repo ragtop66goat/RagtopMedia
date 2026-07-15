@@ -12,7 +12,7 @@ export default function Work() {
       <Header content="Examples" />
       <div className="example-content">
         <div className="example-card">
-          <img src={UncleBigBucks} alt="UncleBigBucks" />
+          <img src={UncleBigBucks} alt="Screenshot of the Uncle Big Bucks website homepage" />
 
           <p>
             This website was built to meet all client requirements with React JS
@@ -36,7 +36,7 @@ export default function Work() {
           </a>
         </div>
         <div className="example-card">
-          <img src={SGAuto} alt="SGAuto" />
+          <img src={SGAuto} alt="Screenshot of the Autos by SG website homepage" />
           <p>
             This website built to showcase select vehicle inventory with HTML
             and CSS. A great small family owned business since 1966 in Cleveland
@@ -60,7 +60,7 @@ export default function Work() {
           </a>
         </div>
         <div className="example-card">
-          <img src={ShyGuy} alt="ShyGuy" />
+          <img src={ShyGuy} alt="Screenshot of the ShyGuyThe13th vlog gallery website" />
           <p>
             Website built to meet all client requirements using HTML, CSS, and
             JavaScript. This is a YouTube vlog Gallery that links the clients
@@ -84,7 +84,7 @@ export default function Work() {
           </a>
         </div>
         <div className="example-card">
-          <img src={RTM} alt="RTM" />
+          <img src={RTM} alt="Screenshot of the Ragtop Media website homepage" />
           <p>
             This site was built with React, Bootstrap, JavaScript and CSS.
           </p>

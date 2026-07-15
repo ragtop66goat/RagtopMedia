@@ -10,14 +10,6 @@ export default function Home() {
   return (
     <div>
       <Hero />
-      <div className="home-content">
-        <h2 className="section-title">Concentration</h2>
-        <div className="bottom-line"></div>
-        <p className="lead">
-          Building a custom solution to fit your desired web-presence <br />
-          using industry standard technologies
-        </p>
-      </div>
       <div className="process-section">
         <h2 className="section-title">The Process</h2>
         <div className="bottom-line"></div>

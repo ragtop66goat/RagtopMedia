@@ -1,30 +1,44 @@
 .footer {
-  background: #333;
-  color: #fff;
+  background: var(--surface);
+  border-top: 1px solid var(--border);
+  color: var(--ink);
 }
 
 .footer-content {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 100%;
+  max-width: var(--content-max-width);
+  margin: 0 auto;
+  padding: 1.5rem var(--page-gutter);
+  box-sizing: border-box;
+}
+
+.footer-content h4 {
+  font-family: var(--font-body);
+  font-weight: 400;
+  color: var(--muted);
 }
 
 .social {
   display: flex;
   flex-wrap: wrap;
-  margin-right: 5rem;
 }
 
 .fab {
-  color: #fff;
+  color: var(--muted);
   margin: 1rem;
-  border: 2px #fff solid;
+  border: 2px var(--border) solid;
   border-radius: 10%;
   height: 2rem;
   width: 2rem;
+  transition: color 0.3s, border-color 0.3s;
 }
 
 .fab:hover {
-  background: #65afdd;
+  color: var(--accent);
+  border-color: var(--accent);
   cursor: pointer;
+  background: none;
 }

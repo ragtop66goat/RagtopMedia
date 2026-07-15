@@ -4,3 +4,29 @@
   justify-content: space-between;
   height: 100vh;
 }
+
+.page-container {
+  width: 100%;
+  max-width: var(--content-max-width);
+  margin: 0 auto;
+  padding-left: var(--page-gutter);
+  padding-right: var(--page-gutter);
+  box-sizing: border-box;
+}
+
+.section-title {
+  font-size: 2rem;
+  display: block;
+  padding-bottom: 0.5rem;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: var(--ink);
+}
+
+.bottom-line {
+  height: 2px;
+  width: 18rem;
+  background: var(--accent);
+  margin: 0 auto 1rem auto;
+}

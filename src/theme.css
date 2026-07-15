@@ -1,0 +1,19 @@
+:root {
+  --bg: #12151a;
+  --surface: #1b2029;
+  --surface-raised: #232833;
+  --border: #232833;
+  --ink: #e7e9ec;
+  --muted: #8b93a1;
+  --accent: #4fa3d1;
+  --accent-ink: #0c0e12;
+  --accent-2: #e3b23c;
+
+  --font-display: "Century Gothic", "Trebuchet MS", sans-serif;
+  --font-body: "Segoe UI", -apple-system, BlinkMacSystemFont, "Roboto",
+    "Oxygen", "Ubuntu", "Cantarell", "Helvetica Neue", sans-serif;
+  --font-mono: "Cascadia Code", Consolas, "SFMono-Regular", Menlo, monospace;
+
+  --page-gutter: 1.75rem;
+  --content-max-width: 80rem;
+}

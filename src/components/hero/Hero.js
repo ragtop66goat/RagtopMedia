@@ -27,10 +27,17 @@ export function Hero() {
   return (
     <div className="hero">
       <NavbarComponent />
-      <h1 className="hero-typed">{word}</h1>
-      <Link to="/work">
-        <Button className="hero-button">Examples</Button>
-      </Link>
+      <div className="hero-content">
+        <p className="hero-eyebrow">{"// full-stack developer"}</p>
+        <h1 className="hero-typed">{word}</h1>
+        <p className="hero-sub">
+          Building a custom solution to fit your desired web-presence using
+          industry standard technologies.
+        </p>
+        <Link to="/work">
+          <Button className="hero-button">Examples</Button>
+        </Link>
+      </div>
     </div>
   );
 }
