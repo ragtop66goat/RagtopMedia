@@ -1,11 +1,6 @@
 import { Header } from "../../components/header/Header";
 import { Footer } from "../../components/footer/Footer";
-import {
-  FaFacebookSquare,
-  FaInstagramSquare,
-  FaLinkedin,
-  FaTwitterSquare,
-} from "react-icons/fa";
+import { SocialLinks } from "../../components/social/SocialLinks";
 import "./Contact.css";
 import EmailForm from "../../components/email form/EmailForm";
 
@@ -15,34 +10,7 @@ export default function Contact() {
       <Header content="Contact"/>
       <EmailForm/>
       <div className="contact-social">
-        <a
-          href="https://www.facebook.com/Ragtop-Media-112531074552903"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <FaFacebookSquare className="contact-fab" />
-        </a>
-        <a
-          href="https://www.twitter.com/_R_T_Media"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <FaTwitterSquare className="contact-fab" />
-        </a>
-        <a
-          href="https://www.instagram.com/ragtopmedia"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <FaInstagramSquare className="contact-fab" />
-        </a>
-        <a
-          href="https://www.linkedin.com/in/jason-gionfriddo-1a660048"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <FaLinkedin className="contact-fab" />
-        </a>
+        <SocialLinks iconClassName="contact-fab" />
       </div>
       <h2 className="section-title">Thanks for Visiting</h2>
       <div className="bottom-line"></div>
