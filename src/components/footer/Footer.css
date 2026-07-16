@@ -33,7 +33,7 @@
   border-radius: 10%;
   height: 2rem;
   width: 2rem;
-  transition: color 0.3s, border-color 0.3s;
+  transition: color 0.3s, border-color 0.3s, transform 0.2s;
 }
 
 .fab:hover {
@@ -41,4 +41,5 @@
   border-color: var(--accent);
   cursor: pointer;
   background: none;
+  transform: scale(1.08);
 }

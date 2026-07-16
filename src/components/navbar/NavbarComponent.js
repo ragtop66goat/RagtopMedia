@@ -2,6 +2,7 @@ import logo from "../../img/RTM1.png";
 import { NavLink } from "react-router-dom";
 import "./Navbar.css";
 import {Navbar, Container} from "react-bootstrap";
+import { ThemeToggle } from "../theme-toggle/ThemeToggle";
 export function NavbarComponent() {
   return (
       <Container fluid className="page-container">
@@ -16,6 +17,7 @@ export function NavbarComponent() {
             <NavLink to="/work" className={({ isActive }) => (isActive ? "current" : undefined)}>Examples</NavLink>
             <NavLink to="/contact" className={({ isActive }) => (isActive ? "current" : undefined)}>Contact</NavLink>
           </div>
+          <ThemeToggle />
       </Navbar.Collapse>
     </Navbar>
       </Container>

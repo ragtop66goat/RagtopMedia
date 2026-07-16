@@ -56,6 +56,7 @@ input {
     font-size: 14px;
     border-radius: 4px;
     border: 1px solid var(--border);
+    transition: border-color 0.2s;
 }
 
 textarea {
@@ -66,6 +67,13 @@ textarea {
     font-size: 14px;
     border-radius: 4px;
     border: 1px solid var(--border);
+    transition: border-color 0.2s;
+}
+
+input:focus,
+textarea:focus {
+    outline: none;
+    border-color: var(--accent);
 }
 
 .email-form-btn {
@@ -77,9 +85,10 @@ textarea {
     border-radius: 4px;
     cursor: pointer;
     font-weight: 700;
-    transition: background-color 0.3s;
+    transition: background-color 0.3s, transform 0.2s;
 }
 
 .email-form-btn:hover {
     background: var(--accent-2);
+    transform: translateY(-2px);
 }
