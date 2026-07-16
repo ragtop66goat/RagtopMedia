@@ -3,6 +3,7 @@
   color: var(--muted);
 }
 
+.skills-section,
 .process-section {
   text-align: left;
   width: 100%;
@@ -12,13 +13,69 @@
   box-sizing: border-box;
 }
 
+.skills-section {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.skills-section .section-title,
 .process-section .section-title {
   text-align: left;
 }
 
+.skills-section .bottom-line,
 .process-section .bottom-line {
   margin-left: 0;
   margin-right: auto;
+}
+
+.skills-groups {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem;
+  margin-top: 3rem;
+}
+
+.skills-group-title {
+  font-family: var(--font-mono);
+  color: var(--accent);
+  font-size: 0.8rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-bottom: 1rem;
+}
+
+.skills-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  max-width: 18rem;
+}
+
+.skill-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 0.9rem;
+  border-radius: 6px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  color: var(--ink);
+  font-size: 0.9rem;
+  transition: border-color 0.3s, color 0.3s, transform 0.2s;
+}
+
+.skill-chip svg {
+  font-size: 1.1rem;
+  color: var(--accent);
+  flex-shrink: 0;
+}
+
+.skill-chip:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+  transform: translateY(-2px);
 }
 
 .process {
@@ -30,7 +87,7 @@
   margin: 6rem 0 2rem;
 }
 
-.process > div {
+.process-item {
   width: 16rem;
 }
 

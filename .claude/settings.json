@@ -4,7 +4,10 @@
       "Read(//tmp/**)",
       "Bash(node measure3.js)",
       "Bash(node measure4.js)",
-      "Bash(node measure5.js)"
+      "Bash(node measure5.js)",
+      "Bash(cat /tmp/cra-dev.log)",
+      "Bash(cd /tmp/pw-check && node shot_full.js 2>&1)",
+      "Bash(node shot_scroll.js)"
     ]
   }
 }
